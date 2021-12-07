@@ -1,7 +1,11 @@
+import "./styles.css";
+
 const Home = () => {
   return (
-    <div>
-      <h1>Using react router to navigate between the page</h1>
+    <div className="nav-bar">
+      <h1 style={{ textAlign: "center" }}>
+        Using react router to navigate between the page
+      </h1>
     </div>
   );
 };
